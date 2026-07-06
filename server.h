@@ -1,4 +1,4 @@
-// src/server.h
+// server.h
 #ifndef SIFD_SERVER_H
 #define SIFD_SERVER_H
 
