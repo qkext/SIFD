@@ -1,4 +1,4 @@
-// src/sif.cpp
+// sif.cpp
 #include "sif.h"
 #include "exec.h"
 #include "utils.h"
