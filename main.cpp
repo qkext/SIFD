@@ -1,4 +1,4 @@
-// src/main.cpp
+// main.cpp
 #include <iostream>
 #include <cstring>
 #include <cstdlib>
