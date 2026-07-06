@@ -42,7 +42,6 @@ It replaces traditional PHP/web servers with a lightweight alternative that supp
 ### Prerequisites
 
 - Samsung cross-compiler: `arm-v7a8v4r3-linux-gnueabi-g++`
-- GNU Make or direct g++ compilation
 - Toolchain: "http://download.samygo.tv/Toolchains/arm-v7a8v4r3.tar.xz"
 
 ### Compilation & Usage
