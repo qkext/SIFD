@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "=== System Information ==="
+echo "Hostname: $(hostname 2>/dev/null || echo 'TV')"
+echo "Kernel: $(uname -r)"
+echo "Architecture: $(uname -m)"
+echo "Date: $(date)"
+echo "Uptime: $(uptime 2>/dev/null | cut -d',' -f1)"
+echo ""
+echo "=== CPU Info ==="
+cat /proc/cpuinfo 2>/dev/null | head -5

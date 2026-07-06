@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Samsung TV - SIFD Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Samsung TV File Manager</h1>
+            <p>Powered by SIFD</p>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="card-header"><h2>System Information</h2></div>
+                <div class="card-body"><pre><sif exec="sysinfo"></sif></pre></div>
+            </div>
+            <div class="card">
+                <div class="card-header"><h2>File System</h2></div>
+                <div class="card-body"><pre><sif exec="listfiles"></sif></pre></div>
+            </div>
+            <div class="card">
+                <div class="card-header"><h2>Disk Usage</h2></div>
+                <div class="card-body"><pre><sif exec="diskusage"></sif></pre></div>
+            </div>
+            <div class="card">
+                <div class="card-header"><h2>Processes</h2></div>
+                <div class="card-body"><pre><sif exec="processes"></sif></pre></div>
+            </div>
+            <div class="card">
+                <div class="card-header"><h2>Network</h2></div>
+                <div class="card-body"><pre><sif exec="netinfo"></sif></pre></div>
+            </div>
+            <div class="card">
+                <div class="card-header"><h2>Memory</h2></div>
+                <div class="card-body"><pre><sif exec="meminfo"></sif></pre></div>
+            </div>
+            <div class="card">
+                <div class="card-header"><h2>Kernel Version</h2></div>
+                <div class="card-body"><pre><sif read="/proc/version"></sif></pre></div>
+            </div>
+            <div class="card">
+                <div class="card-header"><h2>GET Test</h2></div>
+                <div class="card-body">
+                    <p><a href="?name=Samsung">Click here to set name</a></p>
+                    <p>Name: <strong><sif get="name"></sif></strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer"><p>SIFD v1.0 - Samsung Interactive File Daemon</p></div>
+    </div>
+</body>
+</html>

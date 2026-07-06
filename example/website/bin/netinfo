@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "=== Network Interfaces ==="
+ifconfig 2>/dev/null
+echo ""
+echo "=== Routing Table ==="
+route -n 2>/dev/null

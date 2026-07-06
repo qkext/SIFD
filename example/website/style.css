@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0a1a;
+    color: #e0e0e0;
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.header {
+    text-align: center;
+    padding: 25px 20px;
+    background: #1a1a3e;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2a2a5e;
+}
+.header h1 {
+    font-size: 2.2em;
+    color: #4a90d9;
+    margin-bottom: 5px;
+}
+.header p {
+    color: #8888cc;
+    font-size: 1.1em;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.card {
+    background: #12122a;
+    border-radius: 10px;
+    border: 1px solid #2a2a4e;
+    overflow: hidden;
+}
+.card-header {
+    background: #1a1a3e;
+    padding: 15px 20px;
+    border-bottom: 1px solid #2a2a5e;
+}
+.card-header h2 {
+    color: #5a9fd4;
+    font-size: 1.4em;
+}
+.card-body {
+    padding: 15px 20px;
+}
+.card-body h3 {
+    color: #7ab0e0;
+    font-size: 1.1em;
+    margin: 12px 0 6px;
+}
+pre {
+    background: #0a0a1f;
+    color: #b0e0b0;
+    padding: 15px 18px;
+    border-radius: 6px;
+    font-size: 1.0em;
+    font-family: 'Courier New', monospace;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #1a1a3e;
+    line-height: 1.6;
+    max-height: 400px;
+    overflow-y: auto;
+}
+a {
+    color: #6ab0f3;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+a:hover {
+    color: #8ac8ff;
+    text-decoration: underline;
+}
+p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+strong {
+    color: #6ab0f3;
+    font-size: 1.2em;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #7777aa;
+    font-size: 1.0em;
+    border-top: 1px solid #1a1a3e;
+    margin-top: 15px;
+}
+@media (max-width: 500px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .header h1 {
+        font-size: 1.6em;
+    }
+    pre {
+        font-size: 0.9em;
+    }
+}

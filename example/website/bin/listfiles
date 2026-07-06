@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "=== Website Directory ==="
+ls -lah /mtd_rwarea/website/ 2>/dev/null
+echo ""
+echo "=== Binaries ==="
+ls -lah /mtd_rwarea/website/bin/ 2>/dev/null

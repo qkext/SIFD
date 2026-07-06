@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "=== Memory Info ==="
+free 2>/dev/null
+echo ""
+echo "=== /proc/meminfo ==="
+cat /proc/meminfo 2>/dev/null | head -10

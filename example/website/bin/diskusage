@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "=== Disk Usage ==="
+df -h 2>/dev/null
+echo ""
+echo "=== Mount Points ==="
+mount 2>/dev/null | grep mtd
