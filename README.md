@@ -13,7 +13,7 @@ It replaces traditional PHP/web servers with a lightweight alternative that supp
 
 ## Target Platform
 
-[LINUX-BASED SAMSUNG TV]
+**LINUX-BASED SAMSUNG TV**
 
 ## Features
 
