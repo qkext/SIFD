@@ -1,4 +1,4 @@
-// src/sif.h
+// sif.h
 #ifndef SIFD_SIF_H
 #define SIFD_SIF_H
 
