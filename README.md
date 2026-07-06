@@ -49,7 +49,7 @@ It replaces traditional PHP/web servers with a lightweight alternative that supp
 
 ```bash
 # Using the build command directly
-/opt/arm-v7a8v4r3/bin/arm-v7a8v4r3-linux-gnueabi-g++ \
+arm-v7a8v4r3/bin/arm-v7a8v4r3-linux-gnueabi-g++ \
     -O2 -Wall -std=c++11 \
     -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 \
     -ffunction-sections -fdata-sections \
