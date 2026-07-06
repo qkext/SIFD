@@ -1,4 +1,4 @@
-// src/logger.cpp
+// logger.cpp
 #include "logger.h"
 
 namespace sifd {
