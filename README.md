@@ -45,7 +45,7 @@ It replaces traditional PHP/web servers with a lightweight alternative that supp
 - GNU Make or direct g++ compilation
 - Toolchain: "http://download.samygo.tv/Toolchains/arm-v7a8v4r3.tar.xz"
 
-### Compilation
+### Compilation & Usage
 
 ```bash
 # Using the build command directly
@@ -58,8 +58,6 @@ It replaces traditional PHP/web servers with a lightweight alternative that supp
     utils.cpp logger.cpp mime.cpp exec.cpp listing.cpp \
     sif.cpp http.cpp server.cpp main.cpp \
     -lpthread -lrt
-
-**Usage**
 
 ./sifd \
 -f /mtd_rwarea/website \
