@@ -1,4 +1,4 @@
-// src/mime.cpp
+// mime.cpp
 #include "mime.h"
 
 namespace sifd {
