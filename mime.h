@@ -1,4 +1,4 @@
-// src/mime.h
+// mime.h
 #ifndef SIFD_MIME_H
 #define SIFD_MIME_H
 
