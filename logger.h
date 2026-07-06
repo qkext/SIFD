@@ -1,4 +1,4 @@
-// src/logger.h
+// logger.h
 #ifndef SIFD_LOGGER_H
 #define SIFD_LOGGER_H
 
