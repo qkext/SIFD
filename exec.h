@@ -1,4 +1,4 @@
-// exec.h - Updated version
+// exec.h
 #ifndef SIFD_EXEC_H
 #define SIFD_EXEC_H
 
