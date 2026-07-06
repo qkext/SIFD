@@ -1,4 +1,4 @@
-// src/config.h
+// config.h
 #ifndef SIFD_CONFIG_H
 #define SIFD_CONFIG_H
 
